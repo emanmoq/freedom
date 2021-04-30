@@ -305,7 +305,7 @@ font-weight: bold;
     top: -73px;
 }
 .menu{
-    padding-bottom:100px;
+    padding-bottom:60px;
 }
 .menu .sectionTitle{
     margin-bottom: 58px;;
@@ -324,8 +324,117 @@ font-weight: bold;
 }
 .candidateBox{
     text-align: center;
+    margin-bottom: 40px;;
 }
 .candidateBox h3{
     font-weight:bold;
-    font-size:1em;;
+    font-size:1em;
+    margin-bottom: 10px;;
 }
+.candidateBox p{
+    font-size:.9em;
+    color:white;;
+}
+.contactUs{
+    padding-bottom: 170px;;
+}
+.contactUs .sectionTitle{
+    margin-bottom: 90px;
+}
+.contactIcon{
+    margin-left:15px;
+}
+.contactDetails h3{
+    font-size:1.3em;
+    color:white;
+    margin-bottom: 20px;;
+}
+.contactDetails p{
+    font-size:1.6em;
+    font-weight: bold;
+}
+.contactSocial li{
+width:49px;
+height:49px;
+border-radius: 50%;
+border:2px solid #FFCC08;
+padding:19px;
+text-align: center;
+display: inline-flex;
+justify-content: center;
+}
+.contactSocial li i{
+    font-size:25px;
+}
+.contactSocial li a{
+    align-self: center;
+}
+.socialIcons li.facebook:hover a{
+    color:#3b5998;
+}
+.socialIcons li.twitter:hover a {
+    color:#00acee
+}
+.socialIcons li.insta:hover a{
+   color: #fbad50	
+}
+.footer{
+    background-color: white;
+    border-top:3px solid #FFCC08;
+    position: relative;
+    padding-top:77px;
+    padding-bottom: 44px;;
+}
+.footerLogo{
+    position: absolute;
+    left:45%;
+    width:140px;
+    top:-110px;
+    z-index: 1
+}
+.footer p{
+    font-size:.95em;
+    color:black;
+    margin-bottom: 60px;;
+    text-align: center;
+}
+.copyRights{
+    font-size:.9em;
+    color:black;
+    align-self: center;
+}
+.footerSocial li a{
+    color:black
+}
+.footerSocial li {
+    border-color: black;
+}
+.links li {
+    list-style-type: none;
+    display: inline-block;
+    display: inline-flex;
+    
+}
+.links{
+    align-self: center;
+    text-align: left;
+}
+
+.links li a{
+     color:black;
+     font-size:.9em;
+     margin-left:55px;
+     align-self: center;
+ }
+ .links li a:hover{
+     color:#FF2424
+ }
+ .footer .col-md-4{
+     display: flex;
+ }
+ .footer .col-md-4:last-child{
+     justify-content: flex-end;
+ }
+ .footerSocial li:first-child{
+     margin-right: 0;
+ }
