@@ -20,7 +20,7 @@ jQuery(function ($) {
     $(document).on("scroll", onScroll);
 // animate to the section when click  on it
     $('.navbar-collapse ul li a').on('click', function () {
-      $('html, body').animate({ scrollTop: $(this.hash).offset().top  - 5 }, 1000);
+      $('html, body').animate({ scrollTop: $(this.hash).offset().top  - 150 }, 1000);
       $('.navbar-collapse.collapse.in').removeClass('in');
       return false;
     });

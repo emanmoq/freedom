@@ -438,3 +438,15 @@ justify-content: center;
  .footerSocial li:first-child{
      margin-right: 0;
  }
+ .scrollNav{
+     background-color: black;
+     box-shadow: 0 2px 5px rgba(0,0,0,.18);
+     position: fixed;
+     width:100%;
+     z-index: 999999999;
+     top:0;
+
+ }
+ .scrollNav .logo{
+     width:80px;
+ }
