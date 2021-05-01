@@ -38,6 +38,8 @@
                 <span aria-hidden="true">&times;</span>
               </button>
               <ul class="navbar-nav navbar-right">
+                <a class="navbar-brand logo d-lg-none d-md-none d-block" href="index.html"> <img src="assets/images/logo.png" alt=""></a>
+
                 <li class="nav-item active">
                   <a class="nav-link" href="index.html">الرئيسية </a>
                 </li>
@@ -54,9 +56,21 @@
                   <a class="nav-link" href="#contactUs"> اتصل بنا</a>
                 </li>
               </ul>
+              <ul class="socialIcons  d-lg-none d-md-none d-block  ">
+                <li class="facebook">
+                  <a href="#"><i class="lni lni-facebook-oval"></i></a>
+                </li>
+                <li class="twitter">
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="insta">
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+  
+              </ul>
 
             </div>
-            <ul class="socialIcons float-left ">
+            <ul class="socialIcons  d-lg-block d-md-block d-none float-left ">
               <li class="facebook">
                 <a href="#"><i class="lni lni-facebook-oval"></i></a>
               </li>
@@ -80,14 +94,18 @@
         <span class="heroTitleText"> قائمة الحرية</span> <span class="numberCircle">36</span>
       </div>
       <div class="row">
-        <div class="heroBackground">
-          <img src="assets/images/logo2.png" alt="">
-        </div>
-        <div class="heroText">
-          <h1>الحـريــــــــــــــة
-          </h1>
-          <h1 class="marginHeroText">إجــا وقـتـهــــــا </h1>
+        <div class="col-md-12">
+          <div class="heroBox">
+            <div class="heroBackground">
+              <img src="assets/images/logo2.png" alt="">
+            </div>
+            <div class="heroText">
+              <h1>الحـريــــــــــــــة
+              </h1>
+              <h1 class="marginHeroText">إجــا وقـتـهــــــا </h1>
 
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -116,43 +134,58 @@
     <div class="aboutDetails">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            <div class="aboutsection">
-              <h4 class="aboutDetailsTitle"> <i class="fas fa-eye"></i> رؤيتنا</h4>
-              <p>حق الشعب الفلسطيني في الحرية وتقرير المصير والاستقلال الوطني لدولة فلسطين، حرة ومستقلة وذات سيادة على
-                حدود الرابع من حزيران عام 1967 وعاصمتها القدس الشريف، تتميز بالديموقراطية والعدالة والمساواة وسيادة
-                القانون. </p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="aboutsection">
-              <h4 class="aboutDetailsTitle"> <i class="fas fa-envelope"></i> رسالتنا</h4>
-              <p>تحقيق الاستقلال الوطني، وبناء مؤسسات الدولة التشريعية والتنفيذية والقضائية بما يتناسب مع متطلبات الحكم
-                الرشيد، وتعزيز الفصل بين السلطات، وتأكيد سيادة القانون، وتحقيق الحرية والكرامة والمساواة لكافة أبناء
-                شعبنا، وتعزيز الهوية الوطنية، وإعادة الاعتبار لمكانة القضية الفلسطينية عربياً واقليمياً ودولياً، ومقاومة
-                كافة أشكال التطبيع مع إسرائيل، المحلية منها والعربية والإسلامية، وإعادة بناء العلاقات الفلسطينية مع كافة
-                أطراف ومكونات المجتمع الدولي على أسس متينة قائمة على الاعتراف بالحقوق الوطنية الفلسطينية.</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="aboutsection">
-              <h4 class="aboutDetailsTitle"> <i class="fas fa-bullseye"></i> أهدافنا</h4>
-              <ul>
-                <li>
-                  <p>النضال من أجل تحرير الأرض وإنجاز الاستقلال الوطني لدولة فلسطين على حدود الرابع من حزيران 1967،
-                    وعاصمتها القدس الشريف.</p>
-                </li>
-                <li>
-                  <p>مقاومة الاستعمار الاستيطاني الإسرائيلي لأرضنا، وتعزيز صمود مواطنينا.</p>
-                </li>
-                <li>
-                  <p>تعزيز الهوية الوطنية الفلسطينية وقيم المواطنة والانتماء وبناء الانسان.</p>
-                </li>
-                <li>
-                  <p>إعادة بناء المؤسسات الفلسطينية التنفيذية والتشريعية والقضائية بما ينسجم مع متطلبات الحكم الرشيد.
-                  </p>
-                </li>
-              </ul>
+          <div class="col-md-12">
+            <div class="aboutBox">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="aboutsection">
+                    <h4 class="aboutDetailsTitle"> <i class="fas fa-eye"></i> رؤيتنا</h4>
+                    <p>حق الشعب الفلسطيني في الحرية وتقرير المصير والاستقلال الوطني لدولة فلسطين، حرة ومستقلة وذات سيادة
+                      على
+                      حدود الرابع من حزيران عام 1967 وعاصمتها القدس الشريف، تتميز بالديموقراطية والعدالة والمساواة
+                      وسيادة
+                      القانون. </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="aboutsection">
+                    <h4 class="aboutDetailsTitle"> <i class="fas fa-envelope"></i> رسالتنا</h4>
+                    <p>تحقيق الاستقلال الوطني، وبناء مؤسسات الدولة التشريعية والتنفيذية والقضائية بما يتناسب مع متطلبات
+                      الحكم
+                      الرشيد، وتعزيز الفصل بين السلطات، وتأكيد سيادة القانون، وتحقيق الحرية والكرامة والمساواة لكافة
+                      أبناء
+                      شعبنا، وتعزيز الهوية الوطنية، وإعادة الاعتبار لمكانة القضية الفلسطينية عربياً واقليمياً ودولياً،
+                      ومقاومة
+                      كافة أشكال التطبيع مع إسرائيل، المحلية منها والعربية والإسلامية، وإعادة بناء العلاقات الفلسطينية
+                      مع
+                      كافة
+                      أطراف ومكونات المجتمع الدولي على أسس متينة قائمة على الاعتراف بالحقوق الوطنية الفلسطينية.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="aboutsection">
+                    <h4 class="aboutDetailsTitle"> <i class="fas fa-bullseye"></i> أهدافنا</h4>
+                    <ul>
+                      <li>
+                        <p>النضال من أجل تحرير الأرض وإنجاز الاستقلال الوطني لدولة فلسطين على حدود الرابع من حزيران
+                          1967،
+                          وعاصمتها القدس الشريف.</p>
+                      </li>
+                      <li>
+                        <p>مقاومة الاستعمار الاستيطاني الإسرائيلي لأرضنا، وتعزيز صمود مواطنينا.</p>
+                      </li>
+                      <li>
+                        <p>تعزيز الهوية الوطنية الفلسطينية وقيم المواطنة والانتماء وبناء الانسان.</p>
+                      </li>
+                      <li>
+                        <p>إعادة بناء المؤسسات الفلسطينية التنفيذية والتشريعية والقضائية بما ينسجم مع متطلبات الحكم
+                          الرشيد.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -611,7 +644,7 @@
         <div class="col-lg-3 col-md-4">
           <div class="contactDetails">
             <h3>
-              <div class="contactIcon float-right">
+              <div class="contactIcon ">
                 <img src="assets/images/mail.png" alt="">
               </div> البريد الإلكتروني
             </h3>
@@ -621,7 +654,7 @@
         <div class="col-lg-3 col-md-4">
           <div class="contactDetails">
             <h3>
-              <div class="contactIcon float-right">
+              <div class="contactIcon ">
                 <img src="assets/images/phone.png" alt="">
               </div> جوال
             </h3>
@@ -664,21 +697,21 @@
         <div class="col-md-4">
           <span class="copyRights">جميع الحقوق محفوظة</span>
         </div>
-        <div class="col-md-4 justify-content-center">
-                 <ul class="socialIcons contactSocial  footerSocial text-center">
-              <li class="facebook">
-                <a href="#"><i class="lni lni-facebook-oval"></i></a>
-              </li>
-              <li class="twitter">
-                <a href="#"><i class="fab fa-twitter"></i></a>
-              </li>
-              <li class="insta">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-              </li>
+        <div class="col-md-4 justify-content-center  d-lg-block d-md-block d-none">
+          <ul class="socialIcons contactSocial  footerSocial text-center">
+            <li class="facebook">
+              <a href="#"><i class="lni lni-facebook-oval"></i></a>
+            </li>
+            <li class="twitter">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="insta">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
 
-            </ul>
+          </ul>
         </div>
-        <div class="col-md-4 ">
+        <div class="col-md-4  d-lg-block d-md-block d-none">
           <ul class="links">
             <li>
               <a href="#">الرئيسية</a>
